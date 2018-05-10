@@ -1,12 +1,21 @@
-###exercices OpenClassRooms media query responsive ##
+@@ -1,12 +1,16 @@
+-###exercices OpenClassRooms media query responsive ##
++# Exercices OpenClassRooms
++==========================
 
-Activité HTML5 - Semaine 4 :
+-Activité HTML5 - Semaine 4 :
++## media query responsive
++
++### Activité HTML5 - Semaine 4 :
++--------------------------------
 
-Pour cet exercice, vous allez devoir adapter le CV que vous avez fait jusqu'ici pour qu'il s'affiche verticalement (et non horizontalement) sur les petites résolutions.
+ Pour cet exercice, vous allez devoir adapter le CV que vous avez fait jusqu'ici pour qu'il s'affiche verticalement (et non horizontalement) sur les petites résolutions.
 
-Le schéma ci-dessous décrit comment le site doit s'afficher. A gauche, la version "normale" écran large (disons 1024 pixels de large au moins) et à droite la version réduite, plus adaptée à une expérience mobile .
+ Le schéma ci-dessous décrit comment le site doit s'afficher. A gauche, la version "normale" écran large (disons 1024 pixels de large au moins) et à droite la version réduite, plus adaptée à une expérience mobile .
 
-Vous devrez :
+ Vous devrez :
 
-    -Faire disparaître le liseré dans la version mobile
-    -Afficher verticalement les sections expérience, compétences et formation au lieu de les afficher côte à côte horizontalement.
+-    -Faire disparaître le liseré dans la version mobile
+-    -Afficher verticalement les sections expérience, compétences et formation au lieu de les afficher côte à côte horizontalement.
++    * Faire disparaître le liseré dans la version mobile
++    + Afficher verticalement les sections expérience, compétences et formation au lieu de les afficher côte à côte horizontalement.
