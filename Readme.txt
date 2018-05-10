@@ -1,5 +1,3 @@
-@@ -1,12 +1,16 @@
--###exercices OpenClassRooms media query responsive ##
 +# Exercices OpenClassRooms
 +==========================
 
