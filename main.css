@@ -94,16 +94,12 @@ blockquote {
   .lisere {
     display: none;
   }
-  header {}
   h1 {
     float: left;
     margin-left: 15px;
     font-family: intruder_alertregular;
     margin-top: 5px;
     margin-bottom: 5px;
-  }
-  img {
-
   }
 
   blockquote {
