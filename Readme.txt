@@ -1,4 +1,4 @@
-###exercices OpenClassRooms media query responsive ##
+# exercices OpenClassRooms media query responsive
 
 Activité HTML5 - Semaine 4 :
 
