@@ -8,63 +8,35 @@
 
 @font-face {
   font-family: 'intruder_alertregular';
-  src: url('fonts/Intruder-webfont.eot');
-  src: url('fonts/Intruder-webfont.eot?#iefix') format('embedded-opentype'), url('Intruder-webfont.woff2') format('woff2'), url('Intruder-webfont.woff') format('woff'), url('Intruder-webfont.ttf') format('truetype'), url('Intruder-webfont.svg#intruder_alertregular') format('svg');
+  src: url('Intruder-webfont.eot');
+  src: url('Intruder-webfont.eot?#iefix') format('embedded-opentype'), url('Intruder-webfont.woff2') format('woff2'), url('Intruder-webfont.woff') format('woff'), url('Intruder-webfont.ttf') format('truetype'), url('Intruder-webfont.svg#intruder_alertregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
-body, html {
-  height: 100%;
-}
-
 body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  position: relative;
-  overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+	height: 100vh;
 }
 
-.main {
-  position: relative;
-  max-width: 90%;
-  height: 100%;
-  padding-left: 12%;
-  padding-top: 20px;
-  padding-right: 20px;
+.wrapper {
+    padding-left: 12%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    position: relative;
+    height: 100%;
 }
 
-.lisere {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 10%;
-  height: 100%;
-  background-color: #324A52;
-}
-
-header h1, blockquote {
-  text-align: center;
-}
-
-header img {
-  float: right;
-}
-
-section.content {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 50px;
-}
-
-.experience, .competences, .formation {
-  padding: 5px;
+.me img {
+    float: right;
+    margin-left: 10px;
 }
 
 h1 {
-  font-family: intruder_alertregular
+    text-align: center;
+    font-family: intruder_alertregular
 }
 
 h2 {
@@ -74,77 +46,70 @@ h2 {
 }
 
 blockquote {
-  font-family: acmeregular;
-  font-size: 1.3em;
-  text-decoration: underline;
-  text-shadow: 2px 2px 4px blue;
-}
-
-@media all and (max-width: 1024px) {
-
-  body {
-    width: auto;
-    height: auto;
-  }
-
-  .main {
-    padding-top: 0px;
-    padding-right: 0px;
-    width: 100%;
-    height: 100%;
-  }
-
-  .lisere {
-    display: none;
-  }
-
-  h1 {
-    float: left;
-    margin-left: 15px;
-    font-family: intruder_alertregular;
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
-
-  blockquote {
-    height: 50%;
-    font-size: 1.1em;
-  }
-
-  section.content {
-    flex-direction: column;
-    width: auto;
-    font-size: 1.1em;
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
-  }
-}
-
-@media (min-width:290px) and (max-width: 377px) {
-
-  blockquote {
-    padding-block-start: 108px;
-    position: relative;
-  }
-}
-
-@media (min-width:378px) and (max-width: 416px) {
-
-  blockquote {
-    padding-block-start: 108px;
-    position: relative;
-  }
-
-  h1 {
-    float: inherit;
-  }
-}
-
-@media (min-width:496px) and (max-width: 1024px) {
-
-  blockquote {
-    padding-block-start: 81px;
     text-align: center;
-  }
+    font-family: acmeregular;
+    font-size: 1.3em;
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px blue;
 }
+
+.content {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+}
+
+.lisiere {
+    background-color:#324A52;
+    width: 10%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* RESPONSIVE =============================== */
+
+@media (max-width: 992PX) {
+
+	.lisiere {
+		display: none;
+	}
+
+	.content {
+	    flex-direction: column;
+	}
+
+	h1 {
+    	text-align: left;
+	}
+
+	blockquote {
+    	text-align: left;
+    	margin-left: 0;
+
+	}
+
+}
+
+@media (max-width: 768PX) {
+
+}
+
+@media (max-width: 556PX) {
+
+	.me img {
+	    float: none;
+	    display: block;
+	    margin: auto;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	blockquote {
+		text-align: center;
+		margin-left: 40px;
+
+	}
